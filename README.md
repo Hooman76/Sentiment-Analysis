@@ -34,15 +34,9 @@ but the movie reviews include a sentiment for each review so that we can calcula
 Model Performance metrics:
 ------------------------------
 Accuracy: 0.597
+
 Precision: 0.6699
+
 Recall: 0.597
+
 F1 Score: 0.5481
-
-Model Classification report:
-------------------------------
-             precision    recall  f1-score   support
-
-   positive       0.56      0.93      0.70      7510
-   negative       0.78      0.27      0.40      7490
-
-avg / total       0.67      0.60      0.55     15000
