@@ -38,10 +38,11 @@ Precision: 0.6699
 Recall: 0.597
 F1 Score: 0.5481
 
-Prediction Confusion Matrix:
+Model Classification report:
 ------------------------------
-                 Predicted:         
-                   positive negative
-Actual: positive       6948      562
-        negative       5483     2007
+             precision    recall  f1-score   support
 
+   positive       0.56      0.93      0.70      7510
+   negative       0.78      0.27      0.40      7490
+
+avg / total       0.67      0.60      0.55     15000
