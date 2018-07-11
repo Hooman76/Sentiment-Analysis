@@ -31,3 +31,17 @@ The plot shows the overall score of Obama's tweets in each year which means how 
 The algorithms precision and recall is obtained from the movie reviews dataset because Obama's Tweets didn't have any sentiment label
 but the movie reviews include a sentiment for each review so that we can calculate precision and recall.
 
+Model Performance metrics:
+------------------------------
+Accuracy: 0.597
+Precision: 0.6699
+Recall: 0.597
+F1 Score: 0.5481
+
+Prediction Confusion Matrix:
+------------------------------
+                 Predicted:         
+                   positive negative
+Actual: positive       6948      562
+        negative       5483     2007
+
